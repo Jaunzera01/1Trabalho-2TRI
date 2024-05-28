@@ -22,7 +22,30 @@
   </header>
 
   <body>
+    <main>
+        <section class="produtos">
+            <h2>Produtos</h2>
+            <div class="produto">
+                <h3>Produto </h3>
+                <p>Descrição do Produto</p>
+                <p>Preço: </p>
+            </div>
+            <div class="produto">
+                <h3>Produto </h3>
+                <p>Descrição do Produto</p>
+                <p>Preço:</p>
+                <button onclick="adicionarAoCarrinho('Produto 2', 20.00)">Adicionar ao Carrinho</button>
+            </div>
+        </section>
+        
+        <section class="carrinho">
+            <h2>Carrinho de Compras</h2>
+            <ul id="carrinho-lista">
 
+            </ul>
+            <p>Total: R$ <span id="total">0.00</span></p>
+        </section>
+    </main>
   </body>
 
   <footer>
