@@ -5,57 +5,50 @@
     <meta charset="utf-8">
     <meta name="viweport" content="width=device-width, initial-scale=1.0">
     <title>AgroStore</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="estilo.css">
 
   </head>
-
-  <header>
-    <h1>AgroStore</h1>
-    <nav>
-        <ul>
-            <li><a href="#">Início</a></li>
-            <li><a href="#">Produtos</a></li>
-            <li><a href="#">Carrinho</a></li>
-            <li><a href="#">Contato</a></li>
-        </ul>
-    </nav>
-  </header>
-
   <body>
-    <main>
-        <section class="produtos">
-            <h2>Produtos</h2>
-          
-            <div class="produto">
-                <h3>Produto </h3>
-                <p>Descrição</p>
-                <p>Preço: </p>
-            </div>
-          
-            <div class="produto">
-                <h3>Produto </h3>
-                <p>Descrição</p>
-                <p>Preço:</p>
-            </div>
-          
-          <div class="produto">
-                <h3>Produto </h3>
-                <p>Descrição</p>
-                <p>Preço:</p>
-            </div>
-        </section>
-        
-        <section class="carrinho">
-            <h2>Carrinho de Compras</h2>
-            <ul id="carrinho-lista">
+    <div id="area-cabecalho">
+        <div id="area-geral">
+            <h1>Agro<span class="titulo">Store</span></id>
+        </div>
+        <div id="area-menu">
+            <a href="index.html">Home</a>
+            <a href="contato.html">Contato</a>
+        </div>
+    </div>
+    <div id="area-principal">
+        <div id="area-postagens">
+            <div class="produtos">
+                <main>
+                    <section class="produtos">
+                        <h2 class="h2produtos">Produtos</h2>
+                      
+                        <div class="produto">
+                            <h3>Robô agrícola </h3>
+                            <img width="240px" src="imagens/roboagricola.jpg">                            <p>Descrição: Robô autonômo cujo objetivo é iniciar a irrigação de maneira programada e organizada. </p>
+                            <p>Preço: Esgotado</p>
+                        </div>
+                      
+                        <div class="produto">
+                            <h3>Drone de pulverização</h3>
+                            <img width="240px" src="imagens/dronedepulverização.png">                            <p>Descrição: É um drone avançado, onde suas principais características são tanto versatilidade quanto eficiência. Suas aplicações estão diretamentees relacionadas ao monitoramento (saúde e mapeamento da cultura) e a pulverização.</p>
+                            <p>Preço: R$45.999,90 </p>
+                        </div>
+                      
+                      <div class="produto">
+                            <h3>Plano de software de gestão agrícola </h3>
+                            <img width="240px" src="imagens/gestão.jpg">                              <p>Descrição: Feito para maximizar de maneira simples e eficaz a gestão da sua fazenda, ajudando nas tomadas de decisões, automoção e confiabilidade</p>
+                            <p>Preço: Sob consulta</p>
+                        </div>
+                </main>
+            </div> 
+</body>
 
-            </ul>
-            <p>Total: R$ <span id="total">0.00</span></p>
-        </section>
-    </main>
-  </body>
 
-  <footer>
-    <p>&copy; 2024 AgroStore</p>
-  </footer>
+
+    <footer id="rodape">
+        <p class="copyright">&copy; Copyright AgroStore - 2024</p>
+    </footer>
 </html>
